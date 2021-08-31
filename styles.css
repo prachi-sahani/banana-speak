@@ -1,47 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
 
-:root{
-    --primary-color: #FBBF24;
-    --dark-grey: #9CA3AF;
-    --off-white: #F3F4F6;
+:root {
+  --primary-color: #fbbf24;
+  --dark-grey: #9ca3af;
+  --off-white: #f3f4f6;
+  --light-grey: #d1d5db;
 }
 
-body{
-    font-family: 'Noto Sans TC', sans-serif;
-    margin: 0;;
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  margin: 0;
+  background-image: url("images/background-image.jpg");
+  background-size: cover;
 }
 
-.container-center{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: 600px;
-    margin: auto;
+.container-center {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+  margin: auto;
 }
 
-.heading{
-    color: var(--primary-color);
+.heading {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 2rem;
 }
-.sub-heading{
-    color: var(--dark-grey);
-}
-
-#output{
-    border: 1px solid;
-    width: 100%;
-    min-height: 100px;
+.sub-heading {
+  text-align: center;
+  color: var(--dark-grey);
 }
 
-#txt-input{
-    width: 100%;
-    min-height: 100px;
+#output {
+  border: 1px solid;
+  width: 100%;
+  min-height: 150px;
+  background-color: var(--light-grey);
 }
 
-#btn-translate{
-    padding: 0.5rem;
-    font-size: medium;
-    background-color: var(--primary-color);
-    color: white;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+#txt-input {
+  width: 100%;
+  min-height: 150px;
+  background-color: var(--light-grey);
+  font-size: 1rem;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+#btn-translate {
+  padding: 0.5rem;
+  font-size: large;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 50px;
+  width: 150px;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1.25rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 2.25rem;
 }
