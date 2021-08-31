@@ -5,6 +5,10 @@
   --dark-grey: #9ca3af;
   --off-white: #f3f4f6;
   --light-grey: #d1d5db;
+  --secondary-color: #03537d
+  ;
+
+
 }
 
 body {
@@ -72,6 +76,6 @@ body {
 
 .link{
   text-decoration: none;
-  color: white;
-  font-weight: bold;
+  color: var(--secondary-color);
+  /* font-weight: bold; */
 }
