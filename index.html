@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Talk</title>
     <link href="styles.css" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="images/minion.png"/>
+    <link rel="icon" type="image/png" href="images/minion.png" />
 </head>
 
 <body>
@@ -19,8 +19,10 @@
         <div id="output"></div>
     </div>
     <footer class="footer">
-        <marquee scrollamount="12">
-            Use this translator to convert your text from English to Minion speak or Banana language.
+        <marquee scrollamount="10"  onmouseover="this.stop();" onmouseout="this.start();">
+            Use this translator to convert your text from English to Minion speak or Banana language. Made by <a
+                class="link" href="https://prachisahani.netlify.app/">Prachi</a> using <a class="link"
+                href="https://funtranslations.com/api/minion">Banana translator API</a>
         </marquee>
     </footer>
 
