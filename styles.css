@@ -36,15 +36,17 @@ body {
 }
 
 #output {
+  padding: 0.5rem;
   border: 1px solid;
   width: 100%;
-  min-height: 150px;
+  min-height: 125px;
   background-color: var(--light-grey);
 }
 
 #txt-input {
+  padding: 00.5rem;
   width: 100%;
-  min-height: 150px;
+  min-height: 125px;
   background-color: var(--light-grey);
   font-size: 1rem;
   font-family: "Noto Sans TC", sans-serif;
