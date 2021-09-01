@@ -11,21 +11,53 @@
 </head>
 
 <body>
-    <div class="container-center">
+    <header>
         <h1 class="heading">Banana Talk</h1>
-        <textarea id="txt-input" placeholder="Enter English text here"></textarea>
-        <button id="btn-translate">Translate</button>
-        <h2 class="sub-heading">Translated text</h2>
-        <div id="output"></div>
-    </div>
+        
+        <!-- <p class="container-center" style="color: white;">Convert from English to Minion speak. This language is spoken
+            by the minions in Despicable Me.</p> -->
+    </header>
+    <section class=" intro">
+        <p class="container-center" style="max-width: 950px;"> Did you know? Minionese, the language of the Minions, is not a real-world language—rather it is a borrowed one from
+            existing languages that have been mashed up together to create the gibberish that these cute, lovable
+            creatures speak.</p>
+    </section>
+    <section class="section">
+        <div class="container-center">
+            <textarea id="txt-input" placeholder="Enter English text here"></textarea>
+            <button id="btn-translate">Translate</button>
+            <h2 class="sub-heading">Translated text</h2>
+            <div id="output"></div>
+        </div>
+    </section>
+   
     <footer class="footer">
-        <marquee scrollamount="10"  onmouseover="this.stop();" onmouseout="this.start();">
-            Use this translator to convert your text from English to Minion speak or Banana language. Made by <a
-                class="link" href="https://prachisahani.netlify.app/">Prachi</a> using <a class="link"
-                href="https://funtranslations.com/api/minion">Banana translator API</a>
-        </marquee>
+        <div style="background-color: var(--secondary-color); padding: 0.5rem;">
+            Made using <a class="link" href="https://funtranslations.com/api/minion">Banana translator API</a>
+        </div>
+        <div style="background-color: var(--primary-color);">
+            <small>Get in touch</small>
+            <ul class="list-no-bullet">
+                <li class="list-inline">
+                    <a class="link" href="https://github.com/prachi-sahani/">
+                        <img class="icon" src="images/github.png" />
+                    </a>
+                </li>
+                <li class="list-inline">
+                    <a class="link" href="https://www.linkedin.com/in/prachi-sahani/">
+                        <img class="icon" src="images/linkedin.png" />
+                    </a>
+                </li>
+                <li class="list-inline">
+                    <a class="link" href="https://instagram.com/prachisahani_07/?hl=en">
+                        <img class="icon" src="images/instagram.png" />
+                    </a>
+                </li>
+    
+            </ul>
+        </div>
+        
     </footer>
-
     <script src="app.js" type="text/javascript"></script>
 
 </body>

@@ -15,21 +15,40 @@ body {
   font-family: "Noto Sans TC", sans-serif;
   margin: 0;
   background-image: url("images/background-image.jpg");
-  background-size: cover;
+  background-size: cover;  
+  background-blend-mode: soft-light;
+
 }
 
 .container-center {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  max-width: 600px;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+  max-width: 700px;
   margin: auto;
 }
 
-.heading {
-  color: var(--primary-color);
-  text-align: center;
-  font-size: 2rem;
+header{
+  padding: 0.5rem;
+  background-color: var(--primary-color);
 }
+
+.heading {
+  color: white;
+  /* color: var(--primary-color); */
+  text-align: center;
+  /* font-size: 2rem; */
+}
+
+.intro{
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem;
+}
+
+.section{  
+  padding: 1.5rem;
+}
+
 .sub-heading {
   text-align: center;
   color: var(--dark-grey);
@@ -66,18 +85,31 @@ body {
 
 .footer {
   background-color: var(--primary-color);
-  color: white;
   font-size: 1.25rem;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  color: white;
+  padding-bottom: 0.5rem;
+  padding-top: 0;
   text-align: center;
-  height: 2.25rem;
+  /* height: 2.25rem; */
 }
 
 .link{
+  color: white;
   text-decoration: none;
-  color: var(--secondary-color);
-  /* font-weight: bold; */
+  font-weight: bold;
+}
+.list-no-bullet{
+  list-style: none;
+  padding-inline-start: 0;
+
+}
+
+.list-inline{
+  display: inline;
+  padding: 0.75rem;
+}
+
+.icon{
+  height: 2rem;
+  width: 2rem;
 }
